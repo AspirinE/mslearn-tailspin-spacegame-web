@@ -52,8 +52,6 @@ steps:
     custom: tool
     arguments: 'restore'
 
-- task:
-
 - task: DotNetCoreCLI@2
   displayName: 'Run unit tests - $(buildConfiguration)'
   inputs:
